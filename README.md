@@ -53,7 +53,13 @@ Edit your source, save locally and then use one of the methods described on How 
 
 If there is error, the Terminal will be shown with the related errors;
 
+![image.png](https://github.com/jvaloto/salesforce-deploy-without-terminal/blob/main/media/readme/error.gif?raw=true)
+
+
 If there is no error, nothing is showed;
+
+![image.png](https://github.com/jvaloto/salesforce-deploy-without-terminal/blob/main/media/readme/success.gif?raw=true)
+
 
 Information messages will be displayed at the right bottom corner of VSCode.
 

@@ -3,7 +3,7 @@ import { execute } from './functions';
 
 export function activate(context: vscode.ExtensionContext){
 	context.subscriptions.push(
-		vscode.commands.registerCommand('dwt.deploy', () =>{
+		vscode.commands.registerCommand('dswt.deploy', () =>{
 			const editor = vscode.window.activeTextEditor;
 
 			if(editor){

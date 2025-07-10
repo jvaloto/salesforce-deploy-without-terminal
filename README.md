@@ -28,35 +28,37 @@ With a file opened, use one of these methods:
 1. Command Pallet option:
 
 ```
-DWT: Deploy this Source to Org without Terminal
+DSWT: Deploy this Source to Salesforce Org without Terminal
 ```
 
 2. Right button on opened file:
 
 ```
-DWT: Deploy this Source to Org without Terminal
+DSWT: Deploy this Source to Salesforce Org without Terminal
 ```
 
 3. Set a Keyboard Shortcut:
 
+```
 Code > Settings > Keyboard Shortcuts menu or use the Preferences: Open Keyboard Shortcuts
+```
 
 Set your preferred keyboard shortcut for option:
 
 ```
-DWT: Deploy this Source to Org without Terminal
+DSWT: Deploy this Source to Salesforce Org without Terminal
 ```
 
 ## Basic usage
 
-Edit your source, save locally and then use one of the methods described on How to use it and wait for the response:
+Edit your source, save locally and then use one of the methods described on How to use it and wait for the response.
 
-If there is error, the Terminal will be shown with the related errors;
+##### If there is error, the Terminal will be shown with the related errors:
 
 ![image.png](https://github.com/jvaloto/salesforce-deploy-without-terminal/blob/main/media/readme/error.gif?raw=true)
 
 
-If there is no error, nothing is showed;
+##### If there is no error, nothing is showed:
 
 ![image.png](https://github.com/jvaloto/salesforce-deploy-without-terminal/blob/main/media/readme/success.gif?raw=true)
 

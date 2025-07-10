@@ -38,7 +38,7 @@ exports.deactivate = deactivate;
 const vscode = __importStar(require("vscode"));
 const functions_1 = require("./functions");
 function activate(context) {
-    context.subscriptions.push(vscode.commands.registerCommand('dwt.deploy', () => {
+    context.subscriptions.push(vscode.commands.registerCommand('dswt.deploy', () => {
         const editor = vscode.window.activeTextEditor;
         if (editor) {
             (0, functions_1.execute)(editor.document.fileName);

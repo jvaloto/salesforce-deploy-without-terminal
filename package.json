@@ -1,6 +1,6 @@
 {
-  "name": "dwt",
-  "displayName": "Deploy to Salesforce Withtout Terminal",
+  "name": "dswt",
+  "displayName": "Deploy this Source to Salesforce Org without Terminal",
   "description": "Extension to deploy source to Salesforce org without open the Terminal if successfully",
   "version": "0.0.1",
   "publisher": "JonathanValoto",
@@ -20,15 +20,15 @@
   "contributes": {
     "commands": [
       {
-        "command": "dwt.deploy",
-        "title": "DWT: Deploy this Source to Org without Terminal",
+        "command": "dswt.deploy",
+        "title": "DSWT: Deploy this Source to Salesforce Org without Terminal",
         "category": ""
       }
     ],
     "menus": {
       "editor/context": [
         {
-          "command": "dwt.deploy",
+          "command": "dswt.deploy",
           "when": "editorTextFocus && sf:project_opened && sf:has_target_org && (resource =~ /.\\.(cls|trigger)?$/ || resource =~ /.*\\/lwc\\/[^\\/]+(\\/[^\\/]+\\.(html|css|js))?$/)"
         }
       ]
